@@ -29,5 +29,5 @@ To run the echogram map application on your local machine:
 3. In your terminal, navigate to the `mapapp/` folder and start the Flask server:
 ```bash
 cd mapapp
-python app.py
+python run.py
 
