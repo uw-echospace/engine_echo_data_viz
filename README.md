@@ -35,13 +35,13 @@ python run.py
 
 ### Sasha Lai
 
-Developed an interactive prototype for echogram-based region selection and export using Jupyter notebooks, located in the `region-browser/` directory. This tool supports both manual polygon annotation and the matching of pre-existing region labels to NOAA acoustic datasets.
+Developed an interactive prototype for echogram-based region selection and export using Jupyter notebooks, located in the [`region-browser/`](region-browser) directory. This tool supports both manual polygon annotation and the matching of pre-existing region labels to NOAA acoustic datasets.
 
-- `region-browser/polygon_selection.ipynb`: Interactive tool for drawing and editing polygons on echograms
+- [`region-browser/polygon_selection.ipynb`](region-browser/polygon_selection.ipynb): Interactive tool for drawing and editing polygons on echograms
 
-- `region-browser/match_region_labels_v1.ipynb`: Matches existing region label CSVs to their corresponding MVBS `.zarr` files on S3 based on `ping_time` overlap
+- [`region-browser/match_region_labels_v1.ipynb`](region-browser/match_region_labels_v1.ipynb): Matches existing region label CSVs to their corresponding MVBS `.zarr` files on S3 based on `ping_time` overlap
 
-- `region-browser/echogram_annotation_tool.ipynb`: Consolidated notebook combining interactive annotation, region matching, and export functionality
+- [`region-browser/echogram_annotation_tool.ipynb`](region-browser/echogram_annotation_tool.ipynb): Consolidated notebook combining interactive annotation, region matching, and export functionality
 
 **Key contributions:**
 
