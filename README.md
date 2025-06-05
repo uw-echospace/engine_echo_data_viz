@@ -54,3 +54,14 @@ Developed an interactive prototype for echogram-based region selection and expor
 - Export functionality for newly drawn region polygons with timestamped CSV output
 
 - Real-time histogram visualizations and statistical summaries of Sv (volume backscattering strength) values within user-selected regions
+
+### Siyu Meng
+I mainly contributed to the echshader package by fixing existing bugs, improving code robustness, and adding new features.
+
+**Key contributions:**
+
+- [Resolve pandas version conflict](https://github.com/OSOceanAcoustics/echoshader/pull/183): I update DataFrame processing to align with pandas API changes. Therefore, echoshader can support pandas versions greater than 2.0.
+
+- [Check the input dataset](https://github.com/OSOceanAcoustics/echoshader/pull/185): Add input validation to ensure that users provide the correct type of dataset.
+
+- [Generate 3D curtain by plotly](https://github.com/OSOceanAcoustics/echoshader/pull/192): Upgrade the curtain plot method in the echoshader package. This was previously drawn using pyvista, which was relatively crude and could only be used for simple observation. I upgraded it using plotly, and the image is more intuitive and you can see the specific coordinate information. In addition, the rendering time was reduced by around 50%.
