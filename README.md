@@ -65,3 +65,12 @@ I mainly contributed to the echshader package by fixing existing bugs, improving
 - [Check the input dataset](https://github.com/OSOceanAcoustics/echoshader/pull/185): Add input validation to ensure that users provide the correct type of dataset.
 
 - [Generate 3D curtain by plotly](https://github.com/OSOceanAcoustics/echoshader/pull/192): Upgrade the curtain plot method in the echoshader package. This was previously drawn using pyvista, which was relatively crude and could only be used for simple observation. I upgraded it using plotly, and the image is more intuitive and you can see the specific coordinate information. In addition, the rendering time was reduced by around 50%.
+- 
+
+### Ethan Takahashi
+I contributed to the frontend code and the option to display multiple sources of data simultaneously in the [`multi-track](./multi-track/) folder.
+** Key Contributions**
+
+- Utilized maplibre-gl to display geospatial context for ship data.
+- Modified display to allow multiple data sources to be displayed simultaneously.
+- Add toggleable and individually controllable buttons for each specific data source.
